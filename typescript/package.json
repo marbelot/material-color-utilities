@@ -25,7 +25,6 @@
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.mjs.js",
   "scripts": {
-    "postinstall": "npm run build",
     "remove-build": "rm -rf dist",
     "build": "npm run remove-build && npm run build.cjs && npm run build.esm && npm run build.typings",
     "build.cjs": "esbuild index.ts --bundle --outfile=dist/index.cjs.js --platform=node --target=node18",
