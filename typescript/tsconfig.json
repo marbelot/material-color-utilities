@@ -17,7 +17,6 @@
       "noFallthroughCasesInSwitch": true,
       "noImplicitAny": false,
       "outDir": "./dist",
-      "composite": true,
       "importHelpers": true
   },
   "include": [
